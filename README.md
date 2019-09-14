@@ -31,5 +31,5 @@ Optionally edit the environment file, `/etc/conf.d/kodi-framebuffer`, to change 
 
 ## Acknowledgment
 Inspiration for this work is from to the developers of LibreELEC project. 
-* Disabling the frame buffer upon launching (although this alone does not free-up the reported memory): https://github.com/LibreELEC/LibreELEC.tv/blob/master/packages/graphics/opengl-meson/system.d/unbind-console.service
+* Disabling the frame buffer upon launching (although this alone does not free-up the reported memory): https://github.com/LibreELEC/LibreELEC.tv/blob/master/packages/graphics/bcm2835-driver/system.d/unbind-console.service
 * Shrinking the frame buffer (hard-coded in their case): https://github.com/LibreELEC/LibreELEC.tv/blob/master/packages/mediacenter/kodi/patches/kodi-999.99.framebuffer-reset.patch
